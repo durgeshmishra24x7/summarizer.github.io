@@ -22,5 +22,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a Python script
+      
+        run: pip install flask
         run: python .github/workflows/app.py
 
