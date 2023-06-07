@@ -21,6 +21,9 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
+      - name: Install dependencies
+      run: pip install -r requirements.txt
+      
       - name: Run a Python script
-        run: python .github/workflows/app.py
+      run: python .github/workflows/app.py
 
