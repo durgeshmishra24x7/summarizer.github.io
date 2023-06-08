@@ -27,3 +27,4 @@ jobs:
 
     - name: Run Python script
       run: python .github/workflows/app.py
+      run: python .github/workflows/text_summary.py
