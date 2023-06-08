@@ -23,6 +23,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install flask
+        pip install spacy
 
     - name: Run Python script
       run: python .github/workflows/app.py
